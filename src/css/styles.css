@@ -7,6 +7,7 @@
 
 @import url('./1-gallery.css');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 h1,
 h2,
 h3,
@@ -20,11 +21,11 @@ p {
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
-  line-height: 24px;
+  /* line-height: 24px; */
   font-weight: 400;
 
   color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+  background-color: beige;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -33,8 +34,27 @@ p {
   -webkit-text-size-adjust: 100%;
 }
 
+a {
+  color: currentColor;
+    text-decoration: none
+}
+
 body {
   font-family: 'Roboto',
     sans-serif;
   text-align: center;
+  background-color: beige;
+  margin: 0 auto;
+}
+
+
+
+.nav-link {
+  margin: 50px auto;
+  display: block;
+  width: 180px;
+  background-color: #fff;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 40px;
 }
