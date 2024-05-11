@@ -6,6 +6,16 @@
 */
 
 @import url('./1-gallery.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0
+}
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -23,3 +33,8 @@
   -webkit-text-size-adjust: 100%;
 }
 
+body {
+  font-family: 'Roboto',
+    sans-serif;
+  text-align: center;
+}
