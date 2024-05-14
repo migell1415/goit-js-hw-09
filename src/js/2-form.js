@@ -30,10 +30,15 @@ const fillInputs = () => {
     const savedData = localStorage.getItem("feedback-form-state");
     if (savedData !== null) {
         const data = JSON.parse(savedData);
-        email.value = data.email;
-        message.value = data.message;
+        formData.email = data.email;
+        formData.message = data.message;
+        email.value = formData.email;
+        message.value = formData.message;
     }
 };
 
+
+
 window.addEventListener("load", fillInputs);
+
 
